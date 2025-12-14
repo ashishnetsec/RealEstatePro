@@ -1,0 +1,1252 @@
+[
+  {
+    "id": 1,
+    "title": "Luxury 3 Villa in Mansarovar",
+    "propertyType": "Villa",
+    "city": "Jaipur",
+    "location": "Mansarovar",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+    ],
+    "price": 4350000,
+    "areaSqFt": 1020,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Mansarovar, Jaipur.",
+    "description": "Well-maintained villa in Mansarovar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Luxury 4 House in Pratap Nagar",
+    "propertyType": "House",
+    "city": "Jaipur",
+    "location": "Pratap Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c"
+    ],
+    "price": 5200000,
+    "areaSqFt": 1140,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Pratap Nagar, Jaipur.",
+    "description": "Well-maintained house in Pratap Nagar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Commercial in Malviya Nagar",
+    "propertyType": "Commercial",
+    "city": "Jaipur",
+    "location": "Malviya Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+    ],
+    "price": 10100000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Malviya Nagar, Jaipur.",
+    "description": "Well-maintained commercial in Malviya Nagar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "3 Apartment in Jagatpura",
+    "propertyType": "Apartment",
+    "city": "Jaipur",
+    "location": "Jagatpura",
+    "images": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+      "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12"
+    ],
+    "price": 6900000,
+    "areaSqFt": 1380,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "Apartment property located in Jagatpura, Jaipur.",
+    "description": "Well-maintained apartment in Jagatpura, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Luxury 4 Villa in Vaishali Nagar",
+    "propertyType": "Villa",
+    "city": "Jaipur",
+    "location": "Vaishali Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+    ],
+    "price": 7750000,
+    "areaSqFt": 1500,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Vaishali Nagar, Jaipur.",
+    "description": "Well-maintained villa in Vaishali Nagar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Luxury 2 House in Mansarovar",
+    "propertyType": "House",
+    "city": "Jaipur",
+    "location": "Mansarovar",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c"
+    ],
+    "price": 8600000,
+    "areaSqFt": 1620,
+    "bhk": 2,
+    "bathrooms": 2,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Mansarovar, Jaipur.",
+    "description": "Well-maintained house in Mansarovar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Commercial in Pratap Nagar",
+    "propertyType": "Commercial",
+    "city": "Jaipur",
+    "location": "Pratap Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e"
+    ],
+    "price": 14900000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Pratap Nagar, Jaipur.",
+    "description": "Well-maintained commercial in Pratap Nagar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "4 Apartment in Malviya Nagar",
+    "propertyType": "Apartment",
+    "city": "Jaipur",
+    "location": "Malviya Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+    ],
+    "price": 10300000,
+    "areaSqFt": 1860,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "Apartment property located in Malviya Nagar, Jaipur.",
+    "description": "Well-maintained apartment in Malviya Nagar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Luxury 2 Villa in Jagatpura",
+    "propertyType": "Villa",
+    "city": "Jaipur",
+    "location": "Jagatpura",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126"
+    ],
+    "price": 11150000,
+    "areaSqFt": 1980,
+    "bhk": 2,
+    "bathrooms": 2,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Jagatpura, Jaipur.",
+    "description": "Well-maintained villa in Jagatpura, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Luxury 3 House in Vaishali Nagar",
+    "propertyType": "House",
+    "city": "Jaipur",
+    "location": "Vaishali Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126",
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+    ],
+    "price": 12000000,
+    "areaSqFt": 2100,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Vaishali Nagar, Jaipur.",
+    "description": "Well-maintained house in Vaishali Nagar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Commercial in Mansarovar",
+    "propertyType": "Commercial",
+    "city": "Jaipur",
+    "location": "Mansarovar",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+    ],
+    "price": 19700000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Mansarovar, Jaipur.",
+    "description": "Well-maintained commercial in Mansarovar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "2 Apartment in Pratap Nagar",
+    "propertyType": "Apartment",
+    "city": "Jaipur",
+    "location": "Pratap Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c"
+    ],
+    "price": 13700000,
+    "areaSqFt": 2340,
+    "bhk": 2,
+    "bathrooms": 2,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "Apartment property located in Pratap Nagar, Jaipur.",
+    "description": "Well-maintained apartment in Pratap Nagar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Luxury 3 Villa in Malviya Nagar",
+    "propertyType": "Villa",
+    "city": "Jaipur",
+    "location": "Malviya Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+    ],
+    "price": 14550000,
+    "areaSqFt": 2460,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Malviya Nagar, Jaipur.",
+    "description": "Well-maintained villa in Malviya Nagar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Luxury 4 House in Jagatpura",
+    "propertyType": "House",
+    "city": "Jaipur",
+    "location": "Jagatpura",
+    "images": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+      "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12"
+    ],
+    "price": 15400000,
+    "areaSqFt": 2580,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Jagatpura, Jaipur.",
+    "description": "Well-maintained house in Jagatpura, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Commercial in Vaishali Nagar",
+    "propertyType": "Commercial",
+    "city": "Jaipur",
+    "location": "Vaishali Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+    ],
+    "price": 24500000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Vaishali Nagar, Jaipur.",
+    "description": "Well-maintained commercial in Vaishali Nagar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "3 Apartment in Mansarovar",
+    "propertyType": "Apartment",
+    "city": "Jaipur",
+    "location": "Mansarovar",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c"
+    ],
+    "price": 17100000,
+    "areaSqFt": 2820,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "Apartment property located in Mansarovar, Jaipur.",
+    "description": "Well-maintained apartment in Mansarovar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Luxury 4 Villa in Pratap Nagar",
+    "propertyType": "Villa",
+    "city": "Jaipur",
+    "location": "Pratap Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e"
+    ],
+    "price": 17950000,
+    "areaSqFt": 2940,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Pratap Nagar, Jaipur.",
+    "description": "Well-maintained villa in Pratap Nagar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Luxury 2 House in Malviya Nagar",
+    "propertyType": "House",
+    "city": "Jaipur",
+    "location": "Malviya Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+    ],
+    "price": 18800000,
+    "areaSqFt": 3060,
+    "bhk": 2,
+    "bathrooms": 2,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Malviya Nagar, Jaipur.",
+    "description": "Well-maintained house in Malviya Nagar, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Commercial in Jagatpura",
+    "propertyType": "Commercial",
+    "city": "Jaipur",
+    "location": "Jagatpura",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126"
+    ],
+    "price": 29300000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Jagatpura, Jaipur.",
+    "description": "Well-maintained commercial in Jagatpura, Jaipur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Luxury 3 Villa in Paota",
+    "propertyType": "Villa",
+    "city": "Jodhpur",
+    "location": "Paota",
+    "images": [
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126",
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+    ],
+    "price": 4350000,
+    "areaSqFt": 1020,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Paota, Jodhpur.",
+    "description": "Well-maintained villa in Paota, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Luxury 4 House in Basni",
+    "propertyType": "House",
+    "city": "Jodhpur",
+    "location": "Basni",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+    ],
+    "price": 5200000,
+    "areaSqFt": 1140,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Basni, Jodhpur.",
+    "description": "Well-maintained house in Basni, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Commercial in CHB",
+    "propertyType": "Commercial",
+    "city": "Jodhpur",
+    "location": "CHB",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c"
+    ],
+    "price": 10100000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in CHB, Jodhpur.",
+    "description": "Well-maintained commercial in CHB, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "3 Apartment in Sardarpura",
+    "propertyType": "Apartment",
+    "city": "Jodhpur",
+    "location": "Sardarpura",
+    "images": [
+      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+    ],
+    "price": 6900000,
+    "areaSqFt": 1380,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "Apartment property located in Sardarpura, Jodhpur.",
+    "description": "Well-maintained apartment in Sardarpura, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Luxury 4 Villa in Ratanada",
+    "propertyType": "Villa",
+    "city": "Jodhpur",
+    "location": "Ratanada",
+    "images": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+      "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12"
+    ],
+    "price": 7750000,
+    "areaSqFt": 1500,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Ratanada, Jodhpur.",
+    "description": "Well-maintained villa in Ratanada, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Luxury 2 House in Paota",
+    "propertyType": "House",
+    "city": "Jodhpur",
+    "location": "Paota",
+    "images": [
+      "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+    ],
+    "price": 8600000,
+    "areaSqFt": 1620,
+    "bhk": 2,
+    "bathrooms": 2,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Paota, Jodhpur.",
+    "description": "Well-maintained house in Paota, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Commercial in Basni",
+    "propertyType": "Commercial",
+    "city": "Jodhpur",
+    "location": "Basni",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c"
+    ],
+    "price": 14900000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Basni, Jodhpur.",
+    "description": "Well-maintained commercial in Basni, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "4 Apartment in CHB",
+    "propertyType": "Apartment",
+    "city": "Jodhpur",
+    "location": "CHB",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e"
+    ],
+    "price": 10300000,
+    "areaSqFt": 1860,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "Apartment property located in CHB, Jodhpur.",
+    "description": "Well-maintained apartment in CHB, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Luxury 2 Villa in Sardarpura",
+    "propertyType": "Villa",
+    "city": "Jodhpur",
+    "location": "Sardarpura",
+    "images": [
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+    ],
+    "price": 11150000,
+    "areaSqFt": 1980,
+    "bhk": 2,
+    "bathrooms": 2,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Sardarpura, Jodhpur.",
+    "description": "Well-maintained villa in Sardarpura, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Luxury 3 House in Ratanada",
+    "propertyType": "House",
+    "city": "Jodhpur",
+    "location": "Ratanada",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126"
+    ],
+    "price": 12000000,
+    "areaSqFt": 2100,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Ratanada, Jodhpur.",
+    "description": "Well-maintained house in Ratanada, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Commercial in Paota",
+    "propertyType": "Commercial",
+    "city": "Jodhpur",
+    "location": "Paota",
+    "images": [
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126",
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+    ],
+    "price": 19700000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Paota, Jodhpur.",
+    "description": "Well-maintained commercial in Paota, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "2 Apartment in Basni",
+    "propertyType": "Apartment",
+    "city": "Jodhpur",
+    "location": "Basni",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+    ],
+    "price": 13700000,
+    "areaSqFt": 2340,
+    "bhk": 2,
+    "bathrooms": 2,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "Apartment property located in Basni, Jodhpur.",
+    "description": "Well-maintained apartment in Basni, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Luxury 3 Villa in CHB",
+    "propertyType": "Villa",
+    "city": "Jodhpur",
+    "location": "CHB",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c"
+    ],
+    "price": 14550000,
+    "areaSqFt": 2460,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in CHB, Jodhpur.",
+    "description": "Well-maintained villa in CHB, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Luxury 4 House in Sardarpura",
+    "propertyType": "House",
+    "city": "Jodhpur",
+    "location": "Sardarpura",
+    "images": [
+      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+    ],
+    "price": 15400000,
+    "areaSqFt": 2580,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Sardarpura, Jodhpur.",
+    "description": "Well-maintained house in Sardarpura, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Commercial in Ratanada",
+    "propertyType": "Commercial",
+    "city": "Jodhpur",
+    "location": "Ratanada",
+    "images": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+      "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12"
+    ],
+    "price": 24500000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Ratanada, Jodhpur.",
+    "description": "Well-maintained commercial in Ratanada, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "3 Apartment in Paota",
+    "propertyType": "Apartment",
+    "city": "Jodhpur",
+    "location": "Paota",
+    "images": [
+      "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+    ],
+    "price": 17100000,
+    "areaSqFt": 2820,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "Apartment property located in Paota, Jodhpur.",
+    "description": "Well-maintained apartment in Paota, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Luxury 4 Villa in Basni",
+    "propertyType": "Villa",
+    "city": "Jodhpur",
+    "location": "Basni",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c"
+    ],
+    "price": 17950000,
+    "areaSqFt": 2940,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Basni, Jodhpur.",
+    "description": "Well-maintained villa in Basni, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Luxury 2 House in CHB",
+    "propertyType": "House",
+    "city": "Jodhpur",
+    "location": "CHB",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e"
+    ],
+    "price": 18800000,
+    "areaSqFt": 3060,
+    "bhk": 2,
+    "bathrooms": 2,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in CHB, Jodhpur.",
+    "description": "Well-maintained house in CHB, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Commercial in Sardarpura",
+    "propertyType": "Commercial",
+    "city": "Jodhpur",
+    "location": "Sardarpura",
+    "images": [
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+    ],
+    "price": 29300000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Sardarpura, Jodhpur.",
+    "description": "Well-maintained commercial in Sardarpura, Jodhpur with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Luxury 3 Villa in Jawahar Nagar",
+    "propertyType": "Villa",
+    "city": "Kota",
+    "location": "Jawahar Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126"
+    ],
+    "price": 4350000,
+    "areaSqFt": 1020,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Jawahar Nagar, Kota.",
+    "description": "Well-maintained villa in Jawahar Nagar, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Luxury 4 House in Kunadi",
+    "propertyType": "House",
+    "city": "Kota",
+    "location": "Kunadi",
+    "images": [
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126",
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+    ],
+    "price": 5200000,
+    "areaSqFt": 1140,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Kunadi, Kota.",
+    "description": "Well-maintained house in Kunadi, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Commercial in Vigyan Nagar",
+    "propertyType": "Commercial",
+    "city": "Kota",
+    "location": "Vigyan Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+    ],
+    "price": 10100000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Vigyan Nagar, Kota.",
+    "description": "Well-maintained commercial in Vigyan Nagar, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "3 Apartment in Mahaveer Nagar",
+    "propertyType": "Apartment",
+    "city": "Kota",
+    "location": "Mahaveer Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c"
+    ],
+    "price": 6900000,
+    "areaSqFt": 1380,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "Apartment property located in Mahaveer Nagar, Kota.",
+    "description": "Well-maintained apartment in Mahaveer Nagar, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Luxury 4 Villa in Talwandi",
+    "propertyType": "Villa",
+    "city": "Kota",
+    "location": "Talwandi",
+    "images": [
+      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+    ],
+    "price": 7750000,
+    "areaSqFt": 1500,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Talwandi, Kota.",
+    "description": "Well-maintained villa in Talwandi, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Luxury 2 House in Jawahar Nagar",
+    "propertyType": "House",
+    "city": "Kota",
+    "location": "Jawahar Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+      "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12"
+    ],
+    "price": 8600000,
+    "areaSqFt": 1620,
+    "bhk": 2,
+    "bathrooms": 2,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Jawahar Nagar, Kota.",
+    "description": "Well-maintained house in Jawahar Nagar, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Commercial in Kunadi",
+    "propertyType": "Commercial",
+    "city": "Kota",
+    "location": "Kunadi",
+    "images": [
+      "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+    ],
+    "price": 14900000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Kunadi, Kota.",
+    "description": "Well-maintained commercial in Kunadi, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "4 Apartment in Vigyan Nagar",
+    "propertyType": "Apartment",
+    "city": "Kota",
+    "location": "Vigyan Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c"
+    ],
+    "price": 10300000,
+    "areaSqFt": 1860,
+    "bhk": 4,
+    "bathrooms": 4,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "Apartment property located in Vigyan Nagar, Kota.",
+    "description": "Well-maintained apartment in Vigyan Nagar, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Luxury 2 Villa in Mahaveer Nagar",
+    "propertyType": "Villa",
+    "city": "Kota",
+    "location": "Mahaveer Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e"
+    ],
+    "price": 11150000,
+    "areaSqFt": 1980,
+    "bhk": 2,
+    "bathrooms": 2,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Villa property located in Mahaveer Nagar, Kota.",
+    "description": "Well-maintained villa in Mahaveer Nagar, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Luxury 3 House in Talwandi",
+    "propertyType": "House",
+    "city": "Kota",
+    "location": "Talwandi",
+    "images": [
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+    ],
+    "price": 12000000,
+    "areaSqFt": 2100,
+    "bhk": 3,
+    "bathrooms": 3,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "House property located in Talwandi, Kota.",
+    "description": "Well-maintained house in Talwandi, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Commercial in Jawahar Nagar",
+    "propertyType": "Commercial",
+    "city": "Kota",
+    "location": "Jawahar Nagar",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126"
+    ],
+    "price": 19700000,
+    "areaSqFt": 600,
+    "bhk": null,
+    "bathrooms": 1,
+    "furnishing": "Unfurnished",
+    "status": "Ready to Move",
+    "shortDescription": "Commercial property located in Jawahar Nagar, Kota.",
+    "description": "Well-maintained commercial in Jawahar Nagar, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "Lift"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "2 Apartment in Kunadi",
+    "propertyType": "Apartment",
+    "city": "Kota",
+    "location": "Kunadi",
+    "images": [
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126",
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+    ],
+    "price": 13700000,
+    "areaSqFt": 2340,
+    "bhk": 2,
+    "bathrooms": 2,
+    "furnishing": "Semi-Furnished",
+    "status": "Ready to Move",
+    "shortDescription": "Apartment property located in Kunadi, Kota.",
+    "description": "Well-maintained apartment in Kunadi, Kota with good connectivity and nearby amenities.",
+    "amenities": [
+      "Parking",
+      "Water Supply",
+      "Power Backup",
+      "24x7 Security"
+    ]
+  }
+]

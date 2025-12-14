@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EstatePro | Properties</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/responsive.css">
+
+    <style>
+        body {
+            background: #f8f9fb;
+            padding-top: 72px;
+            /* FIX for fixed navbar */
+        }
+
+        .section-title {
+            color: #006ac2;
+            font-weight: 700;
+        }
+
+        /* Overlay */
+        #detailsOverlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.55);
+            backdrop-filter: blur(4px);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 3000;
+        }
+
+        #detailsOverlay.active {
+            display: flex;
+        }
+
+        /* Popup box */
+        .details-box {
+            background: #fff;
+            width: 95%;
+            max-width: 860px;
+            max-height: 90vh;
+            border-radius: 18px;
+            overflow-y: auto;
+            position: relative;
+            padding: 22px;
+            animation: popupIn 0.35s ease;
+        }
+
+        @keyframes popupIn {
+            from {
+                transform: scale(0.92);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* SINGLE CLOSE BUTTON */
+        .details-close {
+            position: sticky;
+            top: 0;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            color: red;
+            z-index: 10;
+            background: none;
+        }
+
+        /* Image */
+        .details-box img {
+            width: 100%;
+            border-radius: 14px;
+            margin: 15px 0;
+        }
+
+        /* Title */
+        .popup-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+
+        /* Price */
+        .details-price {
+            color: #006ac2;
+            font-size: 22px;
+            font-weight: 700;
+            margin: 15px 0;
+        }
+
+        /* Amenities */
+        .amenities {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .amenity {
+            background: #f5f7fb;
+            border: 1px solid #e5e7eb;
+            padding: 8px 14px;
+            border-radius: 12px;
+            font-size: 14px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+
+            <!-- Our Brand -->
+            <a class="navbar-brand fw-bold text-primary fs-4" href="/index.html">
+                RealEstate<span class="text-dark">Pro</span>
+            </a>
+            <li class="nav-item dropdown mt-1 list-unstyled">
+                <a class="nav-link dropdown-toggle fw-semibold" href="#" data-bs-toggle="dropdown">
+                    Location
+                </a>
+                <ul class="dropdown-menu text-center">
+                    <li><a class="dropdown-item" href="/properties.html">Jaipur</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="/properties.html">Jodhpur
+                        </a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="/properties.html">Udaipur
+                        </a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="/properties.html">Kota</a></li>
+                </ul>
+            </li>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#realEstateNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="realEstateNavbar">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold" href="/index.html">Home</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-semibold" href="#" data-bs-toggle="dropdown">
+                            Properties
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="/properties.html">Buy</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/properties.html">Rent</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/properties.html">Commercial</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/properties.html">Luxury Homes</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="/aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#enquiry">Enquiry</a>
+                    </li>
+
+                    <!-- CTA Buttons -->
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-outline-primary btn-sm fw-semibold" href="#">
+                            Login
+                        </a>
+                    </li>
+
+                    <li class="nav-item ms-lg-2">
+                        <a class="btn btn-primary btn-sm fw-semibold" href="/properties.html">
+                            Post Property
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main>
+        <div class="container py-5">
+
+            <h2 class="section-title text-center mb-4">Our Properties</h2>
+
+            <!-- CITY TABS -->
+            <ul class="nav nav-pills justify-content-center mb-5" id="cityTabs"></ul>
+
+            <!-- PROPERTY GRID -->
+            <div class="row g-4" id="propertyGrid"></div>
+
+        </div>
+        <section id="enquiry" class="enquiry-section">
+            <div class="container">
+                <div class="enquiry-card">
+
+                    <h3 class="enquiry-title">Interested in This Property?</h3>
+                    <p class="enquiry-subtitle">
+                        Share your details and our property expert will contact you shortly.
+                    </p>
+
+                    <form class="enquiry-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control" placeholder="Phone Number" required>
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Email Address">
+                            </div>
+
+                            <div class="col-md-6">
+                                <select class="form-select">
+                                    <option selected>Purpose</option>
+                                    <option>Buy</option>
+                                    <option>Rent</option>
+                                    <option>Site Visit</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                                <textarea class="form-control" rows="3" placeholder="Message (optional)"></textarea>
+                            </div>
+
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-primary enquiry-btn">
+                                    Send Enquiry
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PROPERTY DETAILS POPUP -->
+    <div id="detailsOverlay">
+        <div class="details-box">
+            <span class="details-close bg-none">&times;</span>
+            <div id="detailsContent"></div>
+        </div>
+    </div>
+
+    <!-- FOOTER (UNCHANGED, SAFE) -->
+    <footer class="bg-dark text-light mt-5 pt-5">
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- Brand / About -->
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="fw-bold mb-3">EstatePro</h4>
+                    <p class="text-secondary">
+                        EstatePro helps you buy, sell, and rent properties with trust,
+                        transparency, and expert guidance.
+                    </p>
+                    <p class="mb-1"><strong>📍</strong> Jaipur, India</p>
+                    <p class="mb-1"><strong>📞</strong> +91 8769766664</p>
+                    <p><strong>✉️</strong> contact@estatepro.com</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6 col-6">
+                    <h6 class="text-uppercase fw-semibold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">About</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Properties</a></li>
+                        <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Agents</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Property Types -->
+                <div class="col-lg-3 col-md-6 col-6">
+                    <h6 class="text-uppercase fw-semibold mb-3">Property Types</h6>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="mb-2">Apartments</li>
+                        <li class="mb-2">Villas</li>
+                        <li class="mb-2">Commercial</li>
+                        <li class="mb-2">Plots</li>
+                        <li>Luxury Homes</li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="text-uppercase fw-semibold mb-3">Newsletter</h6>
+                    <p class="text-secondary">Get latest property updates.</p>
+
+                    <form class="d-flex flex-column flex-sm-row gap-2">
+                        <input type="email" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary">Subscribe</button>
+                    </form>
+
+                    <!-- Social Icons -->
+                    <div class="mt-3 d-flex gap-2 d-flex gap-3">
+                        <a href="#" class="btn btn-outline-light btn-sm"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="border-secondary my-4">
+
+            <!-- Bottom -->
+            <div class="text-center pb-3">
+                <small class="text-secondary">
+                    © 2025 EstatePro Real Estate. All Rights Reserved.
+                </small>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/app.js"></script>
+
+</body>
+
+</html>

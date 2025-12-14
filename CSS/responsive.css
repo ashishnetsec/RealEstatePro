@@ -1,0 +1,426 @@
+@media (max-width: 991px) {
+    .navbar .dropdown {
+        margin-left: 0;
+    }
+}
+
+/* ===============================
+   MOBILE (≤576px)
+================================ */
+@media (max-width: 576px) {
+
+    /* Carousel */
+    .carousel-inner img {
+        height: 40vh;
+    }
+
+    .carousel-caption {
+        position: static;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+
+    /* Sections padding */
+    .row.p-5 {
+        padding: 1.5rem !important;
+    }
+
+    .container.p-5 {
+        padding: 1.5rem !important;
+    }
+
+    .row.ms-4 {
+        margin-left: 0 !important;
+    }
+
+    /* Buttons stack */
+    .d-flex.gap-4 {
+        flex-direction: column;
+        gap: 1rem !important;
+    }
+
+    .btn-lg {
+        width: 100%;
+    }
+
+    /* Top sellers cards */
+    .Our-Top-Sellers .d-flex {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .profile-card {
+        width: 100%;
+    }
+
+    /* Enquiry */
+    .enquiry-card {
+        padding: 1.5rem;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+    }
+
+}
+
+/* ===============================
+   TABLET (577px – 991px)
+================================ */
+@media (max-width: 991px) {
+
+    .carousel-inner img {
+        height: 55vh;
+    }
+
+    /* Stack seller cards nicely */
+    .Our-Top-Sellers .d-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .profile-card {
+        width: 45%;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Reduce paddings */
+    .row.p-5 {
+        padding: 2rem !important;
+    }
+
+}
+
+/* ===============================
+   DESKTOP (≥992px)
+================================ */
+@media (min-width: 992px) {
+
+    .carousel-inner img {
+        height: 70vh;
+    }
+
+    .profile-card {
+        width: 320px;
+    }
+
+}
+
+/* ===============================
+   OUR TOP SELLERS – RESPONSIVE FIX
+   (NO HTML CHANGES)
+================================ */
+
+/* Default desktop */
+.Our-Top-Sellers .containe {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .Our-Top-Sellers .containe {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Our-Top-Sellers .profile-card {
+    width: 45%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .Our-Top-Sellers .containe {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Our-Top-Sellers .profile-card {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+
+/* =====================================
+   TABLET RESPONSIVE FIXES (ONLY CSS)
+   Applies to:
+   - Buy a Home
+   - Our Service Location
+   - Rent a Home
+   - Featured Property Gallery
+===================================== */
+
+@media (max-width: 991px) {
+
+  /* ---------- COMMON SPACING FIX ---------- */
+  .row.p-5 {
+    padding: 2rem !important;
+  }
+
+  .container.p-5 {
+    padding: 2rem !important;
+  }
+
+  .row.ms-4 {
+    margin-left: 0 !important;
+  }
+
+  /* ---------- BUY & RENT SECTION ---------- */
+  .container-xxl .row {
+    align-items: center;
+  }
+
+  .container-xxl img {
+    width: 100%;
+    height: auto;
+  }
+
+  .d-flex.gap-4 {
+    flex-wrap: wrap;
+    gap: 1rem !important;
+  }
+
+  /* ---------- OUR SERVICE LOCATION ---------- */
+  .Our-Top-Projects .card {
+    height: 100%;
+  }
+
+  .Our-Top-Projects .card-text {
+    font-size: 0.95rem;
+  }
+
+  /* ---------- FEATURED PROPERTY GALLERY ---------- */
+  .gallery-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .tz-gallery img {
+    width: 100%;
+    height: auto !important;
+    object-fit: cover;
+  }
+
+  /* Fix uneven image heights */
+  .tz-gallery .col-md-4,
+  .tz-gallery .col-md-8 {
+    margin-bottom: 1rem;
+  }
+
+}
+
+
+/* =====================================
+   OUR SERVICE LOCATION – FINAL FIX
+   (TABLET RESPONSIVENESS ONLY)
+===================================== */
+
+/* Tablet: force 2 cards per row */
+@media (max-width: 991px) and (min-width: 768px) {
+
+  .Our-Top-Projects .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .Our-Top-Projects .card {
+    height: 100%;
+  }
+
+  .Our-Top-Projects .card-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
+
+/* Mobile: single column */
+@media (max-width: 767px) {
+
+  .Our-Top-Projects .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+}
+
+
+/* ===============================
+   PROPERTY GRID – NON-STRETCH FIX
+   =============================== */
+
+/* Prevent Bootstrap row stretch issue */
+#propertyGrid > div {
+    display: block;
+}
+
+/* Card should grow naturally */
+.property-card,
+.card {
+    width: 100%;
+    height: auto;
+}
+
+/* Image must keep aspect ratio (NO fixed height) */
+.property-card img,
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* ===============================
+   MOBILE (≤576px)
+   =============================== */
+@media (max-width: 576px) {
+
+    /* One card per row */
+    #propertyGrid > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* ===============================
+   TABLET (577px – 991px)
+   =============================== */
+@media (min-width: 577px) and (max-width: 991px) {
+
+    /* Two cards per row */
+    #propertyGrid > div {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/* ===============================
+   DESKTOP (≥992px)
+   =============================== */
+@media (min-width: 992px) {
+
+    /* Three cards per row */
+    #propertyGrid > div {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+}
+
+/* =====================================
+   FIX: Bootstrap h-100 breaking mobile
+   ===================================== */
+
+/* Disable forced equal height */
+.property-card.h-100 {
+    height: auto !important;
+}
+
+/* Let card grow naturally */
+.property-card {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure footer stays at bottom without forcing height */
+.property-card .card-body {
+    flex: 0 0 auto;
+}
+
+/* Footer should not stretch card */
+.property-card .card-footer {
+    margin-top: auto;
+}
+
+/* Images must not force height */
+.property-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* =====================================
+   RESPONSIVE GRID (width only)
+   ===================================== */
+
+@media (max-width: 576px) {
+    #propertyGrid > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+    #propertyGrid > div {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    #propertyGrid > div {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+}
+
+/* Fix vertical stretching */
+.property-card {
+    display: block;
+}
+
+/* Image natural height */
+.property-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Reduce excessive spacing */
+.property-card .card-body {
+    padding-bottom: 0.75rem;
+}
+
+.property-card .card-footer {
+    padding-top: 0.5rem;
+}
+
+
+/* ===============================
+   MOBILE CARD HEIGHT FIX (FINAL)
+   =============================== */
+@media (max-width: 576px) {
+
+    /* Kill Bootstrap equal-height behavior */
+    #propertyGrid .card {
+        height: auto !important;
+        min-height: unset !important;
+        display: block !important;
+    }
+
+    /* Prevent footer from pushing height */
+    #propertyGrid .card-footer {
+        position: static !important;
+    }
+
+    /* Reduce excessive internal spacing */
+    #propertyGrid .card-body {
+        padding-bottom: 0.75rem;
+    }
+
+    /* Ensure image does not force height */
+    #propertyGrid img {
+        height: auto !important;
+        max-height: 220px;
+        object-fit: cover;
+    }
+}
